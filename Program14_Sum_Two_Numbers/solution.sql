@@ -16,3 +16,10 @@ DELIMITER ;
 
 -- Execute the procedure
 CALL CalculateSum();
+DECLARE
+    a NUMBER := 10;
+    b NUMBER := 20;
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Sum = ' || (a + b));
+END;
+/
